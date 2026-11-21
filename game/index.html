@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twin Stars — Spot the Difference</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #14101f;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #game {
+    width: min(100vw, 177.78vh);
+    height: min(100vh, 56.25vw);
+    display: block;
+    cursor: pointer;
+  }
+  #status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720" aria-label="Twin Stars spot the difference game"></canvas>
+<p id="status" aria-live="polite"></p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
