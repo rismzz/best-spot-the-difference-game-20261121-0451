@@ -13,7 +13,9 @@
 - Repo: https://github.com/rismzz/best-spot-the-difference-game-20261121-0451 (publik,
   dibuat 2026-11-21T05:35:42Z — setelah kompetisi dibuka 04:51Z; About terisi: homepage bounty
   + topik makefun, ai-agents, bounties, games).
-- Commit final: **c5c8a1dd34fb33c51e5ba1ecfd194abc6d751139** (branch main, sudah push).
+- Commit kode: **c5c8a1dd34fb33c51e5ba1ecfd194abc6d751139** (branch main, sudah push).
+  Commit STATUS.md: **6072573726d9f3d2111c2fe4546e2aa11d062124** — HEAD final untuk submit
+  (lihat pesan akhir worker untuk SHA HEAD terbaru bila STATUS.md diperbarui lagi).
 - `.makefun/owner.json` ada, wallet GpjYmQrta6MUx3Xbg3WiBRnXzfUpcPWJV4SnXWGQuzux.
 - README memakai template resmi (3 badge + footer referral `?ref=aa4mcy45`).
 
